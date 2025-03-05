@@ -29,6 +29,14 @@
   right: 10px;
   top: -13px;
 }
+.card-bookmark-active {
+  /* filter:invert(100); 
+  position: absolute;
+  right: 10px;
+  top: -13px; */
+  fill: blue !important;
+  background-color: pink;
+}
 .card-answers {
   display: flex;
 }
@@ -42,4 +50,16 @@
   text-align: center;
   background-color: black;
   color: white;
+}
+
+.card-answer-tag-active {
+  position: relative;
+  left: auto;
+  padding: 5px;
+  margin-top: 3px;
+
+  max-width: 30px;
+  text-align: center;
+  background-color: gray;
+  color: black;
 }
