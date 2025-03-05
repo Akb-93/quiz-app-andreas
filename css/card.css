@@ -1,18 +1,25 @@
 .card {
+  display: flex;
+  flex-direction: column;
   border: solid 2px darkgray;
   margin-top: 20px;
   margin-left: 10px;
   margin-right: 10px;
+  padding-bottom: 10px;
   box-shadow: 0 3px 3px 0 darkgray;
   border-radius: 5px;
   position: relative;
 }
 
 .card-question {
+  margin: 10px;
   color: black;
+  align-self: center;
 }
 
 .card-button {
+  align-self: center;
+  width: fit-content;
   background-color: white;
   padding: 5px;
   border-radius: 5px;
@@ -21,4 +28,18 @@
   position: absolute;
   right: 10px;
   top: -13px;
+}
+.card-answers {
+  display: flex;
+}
+.card-answer-tag {
+  position: relative;
+  left: auto;
+  padding: 5px;
+  margin-top: 3px;
+
+  max-width: 30px;
+  text-align: center;
+  background-color: black;
+  color: white;
 }
