@@ -1,8 +1,5 @@
 @import url(./card.css);
 
-:root {
-}
-
 * {
   padding: 0;
   margin: 0;
@@ -49,6 +46,9 @@ footer {
 .footer-nav {
   display: flex;
 }
-ul {
-  align-content: center;
+
+li {
+  text-decoration: none;
+  list-style: none;
+  align-items: center;
 }
