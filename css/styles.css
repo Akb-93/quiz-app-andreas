@@ -10,6 +10,7 @@ body {
   box-sizing: border-box;
   max-width: 720px;
   margin: auto;
+  padding-bottom: 100px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -61,4 +62,9 @@ nav {
 
 .footer-nav-icon {
   justify-content: center;
+}
+
+.footer-nav-icon-active {
+  justify-content: center;
+  filter: invert(100);
 }
