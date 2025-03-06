@@ -45,24 +45,26 @@
   align-items: center;
 }
 .card-answer-tag {
+  border-radius: 10px;
   position: relative;
   left: auto;
   padding: 5px;
-  margin-top: 3px;
-
+  margin-top: 5px;
+  width: 200px;
   text-align: center;
   background-color: #7d5fff;
   color: white;
 }
 
 .card-answer-tag-active {
+  width: 200px;
+  border-radius: 10px;
   position: relative;
   left: auto;
   padding: 5px;
-  margin-top: 3px;
+  margin-top: 5px;
 
-  max-width: 30px;
   text-align: center;
   background-color: #28c76f;
-  color: #e5e7eb;
+  color: white;
 }
