@@ -1,7 +1,9 @@
 .card {
+  background-color: #e1b94a3f;
+
   display: flex;
   flex-direction: column;
-  border: solid 2px darkgray;
+  border: solid 2px #e5e7eb;
   margin-top: 50px;
   margin-left: 10px;
   margin-right: 10px;
@@ -9,21 +11,21 @@
   box-shadow: 0 3px 3px 0 darkgray;
   border-radius: 5px;
   position: relative;
-  max-width: 250px;
 }
 
 .card-question {
   margin: 10px;
-  color: black;
+  color: #2d2d2d;
   align-self: center;
 }
 
 .card-button {
   align-self: center;
   width: fit-content;
-  background-color: white;
+  background-color: #007aff;
   padding: 5px;
   border-radius: 5px;
+  margin: 20px;
 }
 .card-bookmark {
   position: absolute;
@@ -39,6 +41,8 @@
 }
 .card-answers {
   display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 .card-answer-tag {
   position: relative;
@@ -46,9 +50,8 @@
   padding: 5px;
   margin-top: 3px;
 
-  max-width: 30px;
   text-align: center;
-  background-color: black;
+  background-color: #7d5fff;
   color: white;
 }
 
@@ -60,6 +63,6 @@
 
   max-width: 30px;
   text-align: center;
-  background-color: gray;
-  color: black;
+  background-color: #28c76f;
+  color: #e5e7eb;
 }
