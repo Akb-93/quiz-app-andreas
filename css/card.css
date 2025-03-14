@@ -1,28 +1,51 @@
 .card {
-  background-color: #e1b94a3f;
+  background-color: #e1b94a;
 
   display: flex;
   flex-direction: column;
   border: solid 2px #e5e7eb;
-  margin-top: 50px;
+  margin-top: 15px;
   margin-left: 10px;
   margin-right: 10px;
-  padding-bottom: 10px;
+  padding-bottom: 30px;
+  padding-top: 70px;
   box-shadow: 0 3px 3px 0 darkgray;
   border-radius: 5px;
   position: relative;
 }
 
 .card-question {
+  background-color: #7d5fff;
+  font-weight: lighter;
+  font-size: 15px;
   margin: 10px;
-  color: #2d2d2d;
+  color: white;
   align-self: center;
+  border-radius: 5px;
+  padding: 5px;
+}
+.hash-section {
+  margin-top: 20px;
+  padding-left: 20px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.hash {
+  font-size: 10px;
+  list-style: none;
+  margin-right: 5px;
+  padding: 5px;
+  border-radius: 5px;
+
+  background-color: #d2e6fc;
+  color: #7d5fff;
 }
 
 .card-button {
   align-self: center;
   width: fit-content;
-  background-color: #007aff;
+  background-color: #d2e6fc;
   padding: 5px;
   border-radius: 5px;
   margin: 20px;
@@ -30,38 +53,41 @@
 .card-bookmark {
   position: absolute;
   right: 10px;
-  top: -13px;
+  top: 10px;
 }
 .card-bookmark-active {
-  filter: invert(100) invert(42%) sepia(100%) saturate(100%) hue-rotate(90deg)
-    brightness(80%) contrast(119%);
+  fill: black;
   position: absolute;
   right: 10px;
-  top: -13px;
+  top: 10px;
 }
 .card-answers {
-  display: flex;
-  flex-direction: column;
+  margin: auto;
   align-items: center;
+  width: 300px;
 }
 .card-answer-tag {
+  margin: auto;
+  border-radius: 10px;
   position: relative;
-  left: auto;
   padding: 5px;
-  margin-top: 3px;
-
+  margin-top: 10px;
+  width: 200px;
   text-align: center;
   background-color: #7d5fff;
   color: white;
+  font-weight: lighter;
+  font-size: 15px;
 }
 
 .card-answer-tag-active {
+  border-radius: 10px;
   position: relative;
   left: auto;
   padding: 5px;
-  margin-top: 3px;
+  margin-top: 10px;
+  width: 200px;
 
-  max-width: 30px;
   text-align: center;
   background-color: #28c76f;
   color: #e5e7eb;

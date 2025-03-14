@@ -1,5 +1,5 @@
 @import url(./card.css);
-
+@import url(./profile.css);
 * {
   padding: 0;
   margin: 0;
@@ -7,7 +7,6 @@
 }
 
 body {
-  border: solid #7d5fff;
   box-sizing: border-box;
   max-width: 420px;
   margin: auto;
@@ -15,10 +14,9 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  background-color: #f8f9fb;
 }
-section {
-  padding-left: 10px;
+main {
+  background-color: white;
 }
 header {
   color: #7d5fff;
@@ -27,15 +25,24 @@ header {
   z-index: 5;
   display: flex;
   background-color: #e1b94a;
-  width: 100%;
   justify-content: center;
   height: 100px;
-}
-header,
-h1 {
-  align-self: center;
+  box-shadow: 20px white;
+  width: 420px;
 }
 
+h1 {
+  position: absolute;
+  align-self: center;
+  font-size: 30;
+}
+h2 {
+  position: absolute;
+  align-self: center;
+  top: 60px;
+  left: 200px;
+  color: aliceblue;
+}
 footer {
   position: fixed;
   bottom: 0;
