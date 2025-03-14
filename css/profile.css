@@ -10,22 +10,23 @@
 .profile__card {
   margin-top: 30px;
   font-weight: lighter;
-  padding 30px;
+  padding: 30px;
 }
 .profile__picture {
   max-width: 30%;
   margin-bottom: 30px;
   border-radius: 100%;
-  border:solid #7d5fff
+  border: solid #7d5fff;
 }
 
 .profile__card--head {
-  border-bottom: solid 1px #7d5fff ;
+  border-bottom: solid 1px #7d5fff;
 }
-.profile__card--head,h4 {
+.profile__card--head,
+h4 {
   margin-bottom: 20px;
 }
-.profile__card--head,p {
-    margin-bottom: 5px;
-    
-  }
+.profile__card--head,
+p {
+  margin-bottom: 5px;
+}
