@@ -27,7 +27,7 @@ header {
   background-color: #e1b94a;
   justify-content: center;
   height: 100px;
-  box-shadow: 20px white;
+  box-shadow: 0 30px 80px 0 white;
   width: 420px;
 }
 

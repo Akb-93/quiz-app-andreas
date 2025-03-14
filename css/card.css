@@ -50,11 +50,10 @@
   margin: 20px;
 }
 .card-bookmark {
+  background-color: #e1b94a;
   position: absolute;
   right: 10px;
   top: 10px;
-  color: #7d5fff;
-  fill: #28c76f;
 }
 .card-bookmark-active {
   fill: black;
