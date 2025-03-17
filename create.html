@@ -10,39 +10,33 @@
     <!--header-->
     <header>
       <h1>QUIZ</h1>
-      <h2>PROFILE</h2>
+      <h2>CREATE</h2>
     </header>
 
     <main>
-      <article class="profile__card--head">
-      <section class="profile__card--section">
-        <button></button>
-        <img
-          class="profile__picture"
-          src="img/profile.png"
-          alt="Profile picture"
-        />
+      <section class="form__add--cards">
+        <arcticle>
+          <form id="create-form">
+            <label for="create__question--Input">Add question</label>
+            <input type="text" id="create__question--Input" />
+            <span id="question-counter">150</span>
 
-        <h4>Andreas Buchberger</h4>
-        <p>Berlin, Germany</p>
-        <p>Quiz veteran</p>
-        </article>
-        <article class="profile__card">
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde,
-            consequuntur. Est, sapiente maxime. Quasi corrupti explicabo
-            nesciunt incidunt qui assumenda rerum voluptatem? Quos deleniti
-            maiores in blanditiis ratione aliquam ea.
-          </p>
-        </article>
-        <ul>
-          <li>hello</li>
-          <li>these are list elements</li>
-          <li>this too</li>
-        </ul>
-        <button>Mode</button>
+            <label for="create__Answer--Input">Add answer</label>
+            <input type="text" id="create__Answer--Input" />
+            <span id="answer-counter">150 </span>
+
+            <label for="create__tag--Input">Add tag</label>
+            <input type="text" id="create__tag--Input" />
+            <span id="tag-counter">150 </span>
+
+            <input type="submit" id="create__submit--Input" />
+          </form>
+
+          <div id="quiz-container"></div>
+        </arcticle>
       </section>
     </main>
+
     <!--footer-->
     <footer>
       <nav>
@@ -71,6 +65,8 @@
         </ul>
       </nav>
     </footer>
+    <script src="./js/create.js"></script>
+    <script src="./js/index.js"></script>
   </body>
 </html>
 

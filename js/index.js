@@ -12,10 +12,12 @@ answerButton.addEventListener("click", () => {
 });
 
 cardBookmark.addEventListener("click", () => {
-  console.log("fail");
-  if (cardBookmark.style.backgroundColor == "#e1b94a") {
-    cardBookmark.style.backgroundColor = "#7d5fff";
+  console.log("works");
+  cardBookmark.classList.toggle("card-bookmark-active");
+
+  if (cardBookmark.classList.contains("card-bookmark-active")) {
+    element.classList.add("card-bookmark-active");
   } else {
-    cardBookmark.style.backgroundColor = "#e1b94a";
+    element.classList.add("card-bookmark");
   }
 });

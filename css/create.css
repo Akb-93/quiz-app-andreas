@@ -1,0 +1,59 @@
+.form__add--cards {
+  max-width: 600px; /* Adjust as needed */
+  margin: 2rem auto;
+  padding: 1.5rem;
+  border: 1px solid #e1b94a;
+  border-radius: 8px;
+  background-color: #7d5fff;
+}
+
+#create-form {
+  display: flex;
+  flex-direction: column;
+}
+
+#create-form label {
+  margin-top: 1rem;
+  font-weight: bold;
+  color: white;
+}
+
+#create-form input {
+  padding: 0.75rem;
+  margin-top: 0.5rem;
+  border: 1px solid #e1b94a;
+  border-radius: 4px;
+  font-size: 1rem;
+}
+
+#create-form input {
+  background-color: #e1b94a;
+  color: white;
+  padding: 1rem 1.5rem;
+  border: none;
+  border-radius: 4px;
+  margin-top: 1.5rem;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+#create-form input {
+  background-color: #e1b94a;
+}
+
+#question-counter,
+#answer-counter,
+#tag-counter {
+  font-size: 0.9rem;
+  color: #e1b94a;
+  margin-top: 0.25rem;
+}
+
+#quiz-container {
+  margin-top: 2rem;
+  padding: 1rem;
+  border: 1px solid #eee;
+  border-radius: 4px;
+  background-color: white;
+}
