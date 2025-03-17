@@ -9,56 +9,33 @@
   <body>
     <!--header-->
     <header>
-      <h1>Bookmarked</h1>
+      <h1>QUIZ</h1>
+      <h2>BOOKMARK</h2>
     </header>
 
     <main>
       <!--cards-->
-      <section class="card">
-        <img src="./img/bookmark.svg" alt="" class="card-bookmark-active" />
-
+      <section class="card" data-js="card">
+        <button data-js="toggle-bookmark" class="card-bookmark">
+          <img src="./img/bookmark.svg" alt="" class="card-bookmark-svg" />
+        </button>
         <h3 class="card-question">
-          Which of these bottom bracket standards uses a press-fit installation?
+          What is the main advantage of a tubeless tire setup on a mountain
+          bike?
         </h3>
-        <button class="card-button">Show answer</button>
+        <button class="card-button" data-js="card-button">Show answer</button>
         <div class="card-answers">
-          <p class="card-answer-tag">BSA (British Standard Thread)</p>
-          <p class="card-answer-tag">T47</p>
-          <p class="card-answer-tag-active">PF30</p>
-          <p class="card-answer-tag">Italian Threaded</p>
+          <p class="card-answer-tag" data-js="card-answer-tag">
+            Reduced rolling resistance and fewer pinch flats
+          </p>
         </div>
+        <ul class="hash-section">
+          <li class="hash">#tag</li>
+          <li class="hash">#tag</li>
+          <li class="hash">#tag</li>
+        </ul>
       </section>
-
-      <section class="card">
-        <img src="./img/bookmark.svg" alt="" class="card-bookmark-active" />
-
-        <h3 class="card-question">
-          What is the primary benefit of a 1x (single chainring) drivetrain on a
-          gravel bike?
-        </h3>
-        <button class="card-button">Show answer</button>
-        <div class="card-answers">
-          <p class="card-answer-tag">More gear range than a 2x system</p>
-          <p class="card-answer-tag">Lighter weight and simpler maintenance</p>
-          <p class="card-answer-tag">Faster shifting speeds</p>
-          <p class="card-answer-tag">Requires less chain tension</p>
-        </div>
-      </section>
-
-      <section class="card">
-        <img src="./img/bookmark.svg" alt="" class="card-bookmark-active" />
-
-        <h3 class="card-question">
-          What does the term “Q-Factor” refer to in cycling?
-        </h3>
-        <button class="card-button">Show answer</button>
-        <div class="card-answers">
-          <p class="card-answer-tag">The aerodynamic efficiency of a bicycle</p>
-          <p class="card-answer-tag">The width between the crank arms</p>
-          <p class="card-answer-tag">The frame stiffness rating</p>
-          <p class="card-answer-tag">The tire tread pattern for traction</p>
-        </div>
-      </section>
+      
     </main>
     <!--footer-->
     <footer>
@@ -78,12 +55,13 @@
                 ><img src="./img/plus.svg" alt="create icon"
               /></a>
             </li>
-            <a href=""
-              ><img src="./img/circle-user.svg" alt="Profile icon"
+            <a href="./profile.html">
+              <img src="./img/circle-user.svg" alt="Profile icon"
             /></a>
           </li>
         </ul>
       </nav>
+      <script src="./js/index.js"></script>
     </footer>
   </body>
 </html>
